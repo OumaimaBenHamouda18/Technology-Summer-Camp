@@ -1,0 +1,83 @@
+
+body{
+
+    background-color: #030561;
+    padding:20px;
+}
+.table{
+    margin-top: 40px;
+}
+.table td,th{
+    color: rgb(255, 255, 255);
+}
+
+h1,h2 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 5em;
+    color: #faf9fb;
+    text-shadow: 2px 2px 4px rgb(241, 237, 237);
+  
+    
+}
+
+
+
+input,.card,label{
+
+    background-color: transparent;
+    color: #eee;
+    display: block;
+}
+
+.forms-inputs input{width:27.5rem;height: 50px;border: 2px solid #eee;padding: 7px;}
+
+.forms-inputs input:focus{box-shadow: none;outline: none;}
+.btn{height: 50px}
+
+
+
+.error,.warning,.exito{
+    position: relative;
+    margin-left: 480px;
+    margin-bottom:-100px;}
+   
+.error{
+    color:red;
+  
+}
+.warning{
+    color:rgb(230, 230, 18);
+}
+
+.exito{
+    color:rgba(21, 159, 28, 0.833);
+}
+h2 {
+ 
+    font-size: 2em;
+    margin-bottom: 10%;
+
+}
+.button {
+    font-family: 'Major Mono Display', monospace;
+    font-size: 1em;
+    color: #FFFFFF;
+    background-color: #FF9800;
+    border-radius: 23%;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    width:27.5rem;
+
+}
+
+.button:hover {
+    background-color:  #030561;
+    border: solid 2px #FF9800;
+    color: #FF9800;
+    width:27.5rem;
+}
